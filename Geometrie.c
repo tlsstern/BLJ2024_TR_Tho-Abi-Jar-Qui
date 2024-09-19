@@ -3,7 +3,7 @@
 //
 #include <stdio.h>
 #include "Geometrie.h"
-int Area();
+/* int Area();
 
 int geometry() {
   int fchoicegeo;
@@ -20,3 +20,5 @@ int geometry() {
     printf("What Area do you want to calculate?\n")
     scanf("%d", &schoicegeo);
     switch
+
+    */

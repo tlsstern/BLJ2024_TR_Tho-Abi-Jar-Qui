@@ -4,5 +4,5 @@
 
 #ifndef SUMMIEREN_H
 #define SUMMIEREN_H
-
+int summieren();
 #endif //SUMMIEREN_H
