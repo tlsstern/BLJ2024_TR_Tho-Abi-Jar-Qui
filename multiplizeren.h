@@ -4,5 +4,5 @@
 
 #ifndef MULTIPLIZEREN_H
 #define MULTIPLIZEREN_H
-
+int multiplaction();
 #endif //MULTIPLIZEREN_H

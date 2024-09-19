@@ -3,6 +3,7 @@
 #include "Geometrie.h"
 #include "summieren.h"
 #include "Subtrahieren.h"
+#include "multiplizeren.h"
 
 int choice() {
     int choice;
@@ -29,6 +30,7 @@ int choice() {
         case 3:
             break;
         case 4:
+            multiplaction();
             break;
         case 5:
             break;
