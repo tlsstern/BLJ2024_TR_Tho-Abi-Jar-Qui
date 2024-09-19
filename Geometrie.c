@@ -140,6 +140,9 @@ void cuboid() {
     printf("Enter length of second Site");
     scanf("%f", &lengthTwo);
     printf("Enter length of third Site");
+    scanf("%f", &lenghtThree);
+    float result = lengthOne * lengthTwo * lenghtThree;
+    printf("The volume is %3f\n", result);
 }
 void cylinder() {
     float pi = 3.14159;
