@@ -4,5 +4,6 @@
 
 #ifndef GEOMETRIE_H
 #define GEOMETRIE_H
-int geometry();
+
+void geometry();
 #endif //GEOMETRIE_H
