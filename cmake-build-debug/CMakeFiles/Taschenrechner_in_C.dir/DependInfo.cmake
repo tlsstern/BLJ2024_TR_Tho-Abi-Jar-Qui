@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/Projects/blj2024-jar-der/C/2024/BLJ2024_TR_Tho-Abi-Jar-Qui/Pflichtfeatures.c" "CMakeFiles/Taschenrechner_in_C.dir/Pflichtfeatures.c.obj" "gcc" "CMakeFiles/Taschenrechner_in_C.dir/Pflichtfeatures.c.obj.d"
+  "C:/Projects/blj2024-jar-der/C/2024/BLJ2024_TR_Tho-Abi-Jar-Qui/choice.c" "CMakeFiles/Taschenrechner_in_C.dir/choice.c.obj" "gcc" "CMakeFiles/Taschenrechner_in_C.dir/choice.c.obj.d"
   "C:/Projects/blj2024-jar-der/C/2024/BLJ2024_TR_Tho-Abi-Jar-Qui/main.c" "CMakeFiles/Taschenrechner_in_C.dir/main.c.obj" "gcc" "CMakeFiles/Taschenrechner_in_C.dir/main.c.obj.d"
   )
 

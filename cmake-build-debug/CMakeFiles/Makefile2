@@ -80,12 +80,12 @@ clean: CMakeFiles/Taschenrechner_in_C.dir/clean
 CMakeFiles/Taschenrechner_in_C.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Taschenrechner_in_C.dir\build.make CMakeFiles/Taschenrechner_in_C.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Taschenrechner_in_C.dir\build.make CMakeFiles/Taschenrechner_in_C.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Projects\blj2024-jar-der\C\2024\BLJ2024_TR_Tho-Abi-Jar-Qui\cmake-build-debug\CMakeFiles --progress-num=1,2,3 "Built target Taschenrechner_in_C"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Projects\blj2024-jar-der\C\2024\BLJ2024_TR_Tho-Abi-Jar-Qui\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4 "Built target Taschenrechner_in_C"
 .PHONY : CMakeFiles/Taschenrechner_in_C.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Taschenrechner_in_C.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Projects\blj2024-jar-der\C\2024\BLJ2024_TR_Tho-Abi-Jar-Qui\cmake-build-debug\CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Projects\blj2024-jar-der\C\2024\BLJ2024_TR_Tho-Abi-Jar-Qui\cmake-build-debug\CMakeFiles 4
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/Taschenrechner_in_C.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Projects\blj2024-jar-der\C\2024\BLJ2024_TR_Tho-Abi-Jar-Qui\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/Taschenrechner_in_C.dir/rule
