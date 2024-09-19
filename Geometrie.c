@@ -20,7 +20,7 @@ void geometry() {
   int choice;
   printf("What do you want to do?\n");
   printf("1. Area\t\t2. Volume\n");
-  scanf("d", &choice);
+  scanf("%d", &choice);
   if (choice == 1) {
     Area();
   }else if (choice == 2) {
@@ -33,7 +33,7 @@ void Area(){
     int choice;
     printf("What Area do you want to calculate?\n");
     printf("1. circle\t\t2. square\t\t3. rectangle\n");
-    printf("4. triangle\t\t5. trapezoid");
+    printf("4. triangle\t\t5. trapezoid\n");
     scanf("%d", &choice);
 
   switch (choice) {
@@ -104,7 +104,7 @@ void Volume() {
   int choice;
   printf("What Volume do you want to calculate?\n");
   printf("1. ball\t\t2. cube\t\t3. cuboid\n");
-  printf("4. cylinder\t\t5. cone");
+  printf("4. cylinder\t5. cone\n");
   scanf("%d", &choice);
   switch (choice) {
     case 1: void ball();
