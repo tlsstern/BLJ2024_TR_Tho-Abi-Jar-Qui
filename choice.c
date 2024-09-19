@@ -1,5 +1,7 @@
 #include <stdio.h>
 #include "choice.h"
+
+#include "dividieren.h"
 #include "Geometrie.h"
 #include "summieren.h"
 #include "Subtrahieren.h"
@@ -12,7 +14,7 @@ int choice() {
     printf("What do you want to do? (input Number)\n");
     printf("1. Addition\t\t2. Subtraction\t\t3. Division\n");
     printf("4. Multiplication\t5. Exponential\t\t6. Root\n");
-    printf("7. Factoral\t\t8.Geometry\n");
+    printf("7. Factoral\t\t8. Geometry\n");
 
     if (scanf("%d", &choice) != 1) {
         printf("Invalid input. Please enter a number.\n");
@@ -28,6 +30,7 @@ int choice() {
             subtrahieren();
             break;
         case 3:
+            dividieren();
             break;
         case 4:
             multiplaction();

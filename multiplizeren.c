@@ -14,7 +14,7 @@ int multiplaction() {
             if (answer == 'n' || answer == 'N') {
                 break;
             } else {
-                printf("Invalid input. Please enter an number or 'n' to stop.\n");
+                printf("Invalid input. Please enter an integer or 'n' to stop.\n");
                 while (getchar() != '\n') {}
                 continue;
             }
