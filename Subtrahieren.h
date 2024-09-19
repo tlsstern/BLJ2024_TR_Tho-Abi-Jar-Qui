@@ -4,5 +4,5 @@
 
 #ifndef SUBTRAHIEREN_H
 #define SUBTRAHIEREN_H
-
+int subtrahieren();
 #endif //SUBTRAHIEREN_H
