@@ -16,8 +16,8 @@ int choice() {
     printf("4. Multiplication\t5. Exponential\t\t6. Root\n");
     printf("7. Factoral\t\t8. Geometry\n");
 
-    if (scanf("%d", &choice) != 1 || choice != 2 || choice != 3 || choice != 4 || choice != 5 || choice != 6 || choice != 7) {
-        printf("Invalid input. Please enter a number.\n");
+    if (scanf("%d", &choice) != 1 || choice < 1 || choice > 8) {
+        printf("Invalid input. Please enter a number between 1 and 8.\n");
         while (getchar() != '\n');
         return 1;
     }
