@@ -5,4 +5,6 @@ set(CMAKE_C_STANDARD 11)
 
 add_executable(Taschenrechner_in_C main.c
         Pflichtfeatures.c
-        Pflichtfeatures.h)
+        Pflichtfeatures.h
+        choice.c
+        choice.h)

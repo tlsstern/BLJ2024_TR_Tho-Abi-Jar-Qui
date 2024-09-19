@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Taschenrechner_in_C.dir/Pflichtfeatures.c.obj"
   "CMakeFiles/Taschenrechner_in_C.dir/Pflichtfeatures.c.obj.d"
+  "CMakeFiles/Taschenrechner_in_C.dir/choice.c.obj"
+  "CMakeFiles/Taschenrechner_in_C.dir/choice.c.obj.d"
   "CMakeFiles/Taschenrechner_in_C.dir/main.c.obj"
   "CMakeFiles/Taschenrechner_in_C.dir/main.c.obj.d"
   "Taschenrechner_in_C.exe"

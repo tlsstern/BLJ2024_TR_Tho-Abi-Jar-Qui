@@ -152,6 +152,30 @@ Pflichtfeatures.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Taschenrechner_in_C.dir\build.make CMakeFiles/Taschenrechner_in_C.dir/Pflichtfeatures.c.s
 .PHONY : Pflichtfeatures.c.s
 
+choice.obj: choice.c.obj
+.PHONY : choice.obj
+
+# target to build an object file
+choice.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Taschenrechner_in_C.dir\build.make CMakeFiles/Taschenrechner_in_C.dir/choice.c.obj
+.PHONY : choice.c.obj
+
+choice.i: choice.c.i
+.PHONY : choice.i
+
+# target to preprocess a source file
+choice.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Taschenrechner_in_C.dir\build.make CMakeFiles/Taschenrechner_in_C.dir/choice.c.i
+.PHONY : choice.c.i
+
+choice.s: choice.c.s
+.PHONY : choice.s
+
+# target to generate assembly for a file
+choice.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Taschenrechner_in_C.dir\build.make CMakeFiles/Taschenrechner_in_C.dir/choice.c.s
+.PHONY : choice.c.s
+
 main.obj: main.c.obj
 .PHONY : main.obj
 
@@ -188,6 +212,9 @@ help:
 	@echo ... Pflichtfeatures.obj
 	@echo ... Pflichtfeatures.i
 	@echo ... Pflichtfeatures.s
+	@echo ... choice.obj
+	@echo ... choice.i
+	@echo ... choice.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
