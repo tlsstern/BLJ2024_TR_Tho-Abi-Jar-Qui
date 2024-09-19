@@ -3,4 +3,6 @@ project(Taschenrechner_in_C C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(Taschenrechner_in_C main.c)
+add_executable(Taschenrechner_in_C main.c
+        Pflichtfeatures.c
+        Pflichtfeatures.h)
