@@ -1,8 +1,8 @@
-# Install script for directory: C:/Projects/blj2024-jar-der/C/2024/BLJ2024_TR_Tho-Abi-Jar-Qui
+# Install script for directory: C:/Projects/blj2024_tho_ste/2024/37-02-aufgabe2/Taschenrechner-in-C
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/Taschenrechner_in_C")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/Project")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Projects/blj2024-jar-der/C/2024/BLJ2024_TR_Tho-Abi-Jar-Qui/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Projects/blj2024_tho_ste/2024/37-02-aufgabe2/Taschenrechner-in-C/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
