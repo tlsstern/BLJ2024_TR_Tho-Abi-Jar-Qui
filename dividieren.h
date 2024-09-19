@@ -4,5 +4,5 @@
 
 #ifndef DIVIDIEREN_H
 #define DIVIDIEREN_H
-
+int dividieren();
 #endif //DIVIDIEREN_H
