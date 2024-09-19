@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include "choice.h"
+#include "Geometrie.h"
 
 int choice() {
     printf("CALCULATOR\n");
@@ -18,6 +19,7 @@ int choice() {
         case '5': break;
         case '6': break;
         case '7': break;
+        case '8': geometry(); break;
 
         return 0;
 }
