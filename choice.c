@@ -2,6 +2,7 @@
 #include "choice.h"
 #include "Geometrie.h"
 #include "summieren.h"
+#include "Subtrahieren.h"
 
 int choice() {
     int choice;
@@ -23,6 +24,7 @@ int choice() {
             summieren();
             break;
         case 2:
+            subtrahieren();
             break;
         case 3:
             break;
