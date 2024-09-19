@@ -32,19 +32,22 @@ void geometry() {
 void Area(){
     int choice;
     printf("What Area do you want to calculate?\n");
+    printf("1. circle\t\t2. square\t\t3. rectangle\n");
+    printf("4. triangle\t\t5. trapezoid");
     scanf("%d", &choice);
 
   switch (choice) {
     case 1: void circle();
-        break;
+         break;
     case 2: void square();
-        break;
+         break;
     case 3: void rectangle();
-        break;
+          break;
     case 4: void triangle();
-      break;
+        break;
     case 5: void trapezoid();
-      break;
+        break;
+    default: printf("Wrong entry\n");
   }
 }
 
@@ -100,8 +103,9 @@ void trapezoid() {
 void Volume() {
   int choice;
   printf("What Volume do you want to calculate?\n");
+  printf("1. ball\t\t2. cube\t\t3. cuboid\n");
+  printf("4. cylinder\t\t5. cone");
   scanf("%d", &choice);
-
   switch (choice) {
     case 1: void ball();
         break;
@@ -113,6 +117,7 @@ void Volume() {
         break;
     case 5: void cone();
         break;
+    default: printf("Wrong entry\n");
   }
 }
 
