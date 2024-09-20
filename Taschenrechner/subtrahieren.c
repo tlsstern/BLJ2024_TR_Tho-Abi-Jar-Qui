@@ -6,17 +6,17 @@ int subtrahieren() {
     int num;
     char answer;
 
-    printf("Press 'n' to stop\n");
+    printf("Press 's' to stop\n");
     printf("Please enter your first number\n");
     scanf("%d", &sum);
     do {
         printf("Please enter a number:\n");
         if (scanf("%d", &num) != 1) {
             scanf(" %c", &answer);
-            if (answer == 'n' || answer == 'N') {
+            if (answer == 's' || answer == 'S') {
                 break;
             } else {
-                printf("Invalid input. Please enter an number or 'n' to stop.\n");
+                printf("Invalid input. Please enter an number or 's' to stop.\n");
                 while (getchar() != '\n');
                 continue;
             }

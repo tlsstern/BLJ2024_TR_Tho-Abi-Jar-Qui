@@ -14,7 +14,7 @@ int summieren() {
             if (answer == 's' || answer == 'S') {
                 break;
             } else {
-                printf("Invalid input. Please enter an integer or 'n' to stop.\n");
+                printf("Invalid input. Please enter an integer or 's' to stop.\n");
                 while (getchar() != '\n');
                 continue;
             }
