@@ -17,6 +17,7 @@ void cuboid();
 void cylinder();
 void cone();
 
+
 void geometry() {
   int choice;
   printf("What do you want to do?\n");
@@ -26,7 +27,7 @@ void geometry() {
     Area();
   }else if (choice == 2) {
     Volume();
-  } else if (choice != 1 || choice != 2) {
+  } else if (choice != 1 && choice != 2) {
     printf("Wrong entry\n");
   }
 }
@@ -38,15 +39,15 @@ void Area(){
     scanf("%d", &choice);
 
   switch (choice) {
-      case 1: void circle();
+      case 1: circle();
          break;
-    case 2: void square();
+    case 2: square();
          break;
-    case 3: void rectangle();
+    case 3: rectangle();
           break;
-    case 4: void triangle();
+    case 4: triangle();
         break;
-    case 5: void trapezoid();
+    case 5: trapezoid();
         break;
     default: printf("Wrong entry\n");
   }
@@ -58,14 +59,14 @@ void circle(){
     printf("Enter radius");
     scanf("%f", &radius);
     float result = pi * radius * radius;
-    printf("The area is %f\n", result);
+    printf("The area is %.2f\n", result);
 }
 void square() {
     float lenght;
     printf("Enter site length");
     scanf("%f", &lenght);
     float result = lenght * lenght;
-    printf("The area is %3f\n", result);
+    printf("The area is %.2f\n", result);
 }
 void rectangle() {
     float lenghtOne;
@@ -75,7 +76,7 @@ void rectangle() {
     printf("Enter length of second Site");
     scanf("%f", &lenghtTwo);
     float result = lenghtOne * lenghtTwo;
-    printf("The area is %3f\n", result);
+    printf("The area is %.2f\n", result);
 }
 void triangle() {
     float ground;
@@ -85,7 +86,7 @@ void triangle() {
     printf("Enter height");
     scanf("%f", &height);
     float result = ground * height / 2;
-    printf("The area is %3f\n", result);
+    printf("The area is %.2f\n", result);
 }
 void trapezoid() {
     float lenghtOne;
@@ -98,7 +99,7 @@ void trapezoid() {
     printf("Enter height");
     scanf("%f", &height);
     float result = height / 2 * (lenghtOne + lenghtTwo);
-    printf("The area is %3f\n", result);
+    printf("The area is %.2f\n", result);
 }
 
 void Volume() {
@@ -108,15 +109,15 @@ void Volume() {
   printf("4. cylinder\t5. cone\n");
   scanf("%d", &choice);
   switch (choice) {
-    case 1: void ball();
+    case 1: ball();
         break;
-    case 2: void cube();
+    case 2: cube();
         break;
-    case 3: void cuboid();
+    case 3: cuboid();
         break;
-    case 4: void cylinder();
+    case 4: cylinder();
         break;
-    case 5: void cone();
+    case 5: cone();
         break;
     default: printf("Wrong entry\n");
   }
@@ -127,15 +128,15 @@ void ball() {
     float radius;
     printf("Enter radius");
     scanf("%f", &radius);
-    float result = 4/3 * (radius * radius * radius) * pi;
-    printf("The volume is %3f\n", result);
+    float result = 4.0/3 * (radius * radius * radius) * pi;
+    printf("The volume is %.2f\n", result);
 }
 void cube() {
     float length;
     printf("Enter site length");
     scanf("%f", &length);
     float result = length * length * length;
-    printf("The area is %3f\n", result);
+    printf("The volume is %.2f\n", result);
 }
 void cuboid() {
     float lengthOne;
@@ -148,7 +149,7 @@ void cuboid() {
     printf("Enter length of third Site");
     scanf("%f", &lenghtThree);
     float result = lengthOne * lengthTwo * lenghtThree;
-    printf("The volume is %3f\n", result);
+    printf("The volume is %.2f\n", result);
 }
 void cylinder() {
     float pi = 3.14159;
@@ -159,7 +160,7 @@ void cylinder() {
     printf("Enter height");
     scanf("%f", &height);
     float result = pi * radius * radius * height;
-    printf("The volume is %3f\n", result);
+    printf("The volume is %.2f\n", result);
 }
 void cone() {
     float pi = 3.14159;
@@ -169,6 +170,6 @@ void cone() {
     scanf("%f", &radius);
     printf("Enter height");
     scanf("%f", &height);
-    float result = 1/3 * pi * radius * radius * height;
-    printf("The volume is %3f\n", result);
+    float result = 1.0/3 * pi * radius * radius * height;
+    printf("The volume is %.2f\n", result);
 }
