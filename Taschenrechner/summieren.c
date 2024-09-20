@@ -6,12 +6,12 @@ int summieren() {
     int num;
     char answer;
 
-    printf("Press 'n' to stop\n");
+    printf("Press 's' to stop\n");
     do {
         printf("Please enter a number:\n");
         if (scanf("%d", &num) != 1) {
             scanf(" %c", &answer);
-            if (answer == 'n' || answer == 'N') {
+            if (answer == 's' || answer == 'S') {
                 break;
             } else {
                 printf("Invalid input. Please enter an integer or 'n' to stop.\n");
