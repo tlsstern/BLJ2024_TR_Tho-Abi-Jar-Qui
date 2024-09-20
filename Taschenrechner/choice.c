@@ -1,10 +1,13 @@
 #include <stdio.h>
 #include "choice.h"
+
+#include "chaincalculator.h"
 #include "dividieren.h"
 #include "Geometrie.h"
 #include "summieren.h"
 #include "Subtrahieren.h"
 #include "multiplizeren.h"
+#include "rockpaperscissor.h"
 
 int choice() {
     int choice;
@@ -13,12 +16,11 @@ int choice() {
     printf("What do you want to do? (input Number)\n");
     printf("1. Addition\t\t2. Subtraction\t\t3. Division\n");
     printf("4. Multiplication\t5. Exponential\t\t6. Root\n");
-    printf("7. Factoral\t\t8. Geometry\n");
+    printf("7. Factoral\t\t8. Geometry\t\t9. Chain calculation\n");
+    printf("10. Linear Functions\t11. Life Science\t12. Rock Paper Scissor\n");
 
-    if (scanf("%d", &choice) != 1 || choice < 1 || choice > 8) {
-        printf("Invalid input. Please enter a number between 1 and 8.\n");
-        while (getchar() != '\n') {}
-        return 1;
+    if (scanf("%d", &choice) != 1 || choice < 1 || choice > 12) {
+        printf("Invalid input. Please enter a number between 1 and 12.\n");
     }
 
     switch (choice) {
@@ -35,16 +37,32 @@ int choice() {
             multiplaction();
         break;
         case 5:
+
             break;
         case 6:
+
             break;
         case 7:
+
             break;
         case 8:
             geometry();
-        break;
+            break;
+        case 9:
+            chaincalculator();
+            break;
+        case 10:
+
+            break;
+        case 11:
+
+            break;
+        case 12:
+            rockpaperscissor();
+            break;
+
         default:
-            printf("Wrong choice, please choose a number between 1 - 8\n");
+            printf("Wrong choice, please choose a number between 1 - 12\n");
     }
 
     return 0;
