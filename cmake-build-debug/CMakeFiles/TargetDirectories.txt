@@ -1,3 +1,0 @@
-C:/Projects/blj2024_tho_ste/2024/37-02-aufgabe2/Taschenrechner-in-C/cmake-build-debug/CMakeFiles/new_target.dir
-C:/Projects/blj2024_tho_ste/2024/37-02-aufgabe2/Taschenrechner-in-C/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Projects/blj2024_tho_ste/2024/37-02-aufgabe2/Taschenrechner-in-C/cmake-build-debug/CMakeFiles/rebuild_cache.dir
