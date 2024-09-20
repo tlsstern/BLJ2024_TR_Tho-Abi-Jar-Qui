@@ -4,5 +4,5 @@
 
 #ifndef FAKULITAT_H
 #define FAKULITAT_H
-
+void calculate_factorial();
 #endif //FAKULITAT_H

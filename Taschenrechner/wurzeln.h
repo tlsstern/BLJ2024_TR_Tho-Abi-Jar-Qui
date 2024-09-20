@@ -4,5 +4,5 @@
 
 #ifndef WURZELN_H
 #define WURZELN_H
-
+void calculate_square_root();
 #endif //WURZELN_H

@@ -4,5 +4,5 @@
 
 #ifndef EXPONENTEN_H
 #define EXPONENTEN_H
-
+void exponent();
 #endif //EXPONENTEN_H
