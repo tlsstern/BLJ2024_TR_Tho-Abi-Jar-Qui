@@ -2,6 +2,11 @@
 #include "choice.h"
 
 int main(void) {
-    choice();
+    int play_again;
+    do {
+        choice();
+        printf("Do you want to play again? 1 = yes | 2  = no \n");
+        scanf("%d", &play_again);
+    } while (play_again == 1);
     return 0;
 }

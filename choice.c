@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include "choice.h"
-
 #include "dividieren.h"
 #include "Geometrie.h"
 #include "summieren.h"
@@ -18,7 +17,7 @@ int choice() {
 
     if (scanf("%d", &choice) != 1 || choice < 1 || choice > 8) {
         printf("Invalid input. Please enter a number between 1 and 8.\n");
-        while (getchar() != '\n');
+        while (getchar() != '\n') {}
         return 1;
     }
 
