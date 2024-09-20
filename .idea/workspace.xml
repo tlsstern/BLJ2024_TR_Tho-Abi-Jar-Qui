@@ -24,8 +24,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="05283d9e-97d4-4b64-9b63-9fbb6c00fb64" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/editor.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Geometrie.c" beforeDir="false" afterPath="$PROJECT_DIR$/Geometrie.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,6 +78,7 @@
     "CMake Application.Taschenrechner_in_C.executor": "Run",
     "CMake Application.new_target.executor": "Run",
     "CMake Debug.Project.executor": "Debug",
+    "CMake Debug.Unnamed.executor": "Debug",
     "RunOnceActivity.RadMigrateCodeStyle": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.cidr.known.project.marker": "true",
@@ -111,8 +115,13 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1726740524440</updated>
+<<<<<<< HEAD
       <workItem from="1726740525921" duration="10879000" />
       <workItem from="1726813526670" duration="989000" />
+=======
+      <workItem from="1726740525921" duration="12835000" />
+      <workItem from="1726774469061" duration="556000" />
+>>>>>>> c731cceb85f11101f8874a68523a8ba03c7a5969
     </task>
     <servers />
   </component>
