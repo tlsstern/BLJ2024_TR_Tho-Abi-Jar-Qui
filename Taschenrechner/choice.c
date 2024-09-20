@@ -10,6 +10,7 @@
 #include "fakulitat.h"
 #include "wurzeln.h"
 #include "exponenten.h"
+#include "lifescience.h"
 
 int choice() {
     int choice;
@@ -57,7 +58,7 @@ int choice() {
 
             break;
         case 11:
-
+            lifescience();
             break;
         case 12:
             rockpaperscissor();
