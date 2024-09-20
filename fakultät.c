@@ -1,8 +1,3 @@
-//
-// Created by Work on 19/09/2024.
-//
-
-#include "fakulität.h"
 #include <stdio.h>
 
 //Calculating positiv numbers
@@ -21,12 +16,12 @@ int main() {
     printf("Enter a number:");
     scanf("%d", &number);
 
-    //Check numbers -> negative
+//Check numbers -> negative
     if (number < 0) {
         printf("Factorial can only be calculated for positive integers. Please try again and enter in the following a positive number.\n");
     } else {
 
-        //Output
+//Output
         unsigned long long result = factorial(number);
         printf("%d! = %llu\n", number, result);
     }
