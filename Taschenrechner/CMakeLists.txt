@@ -23,4 +23,6 @@ add_executable(Taschenrechner main.c
         multiplizeren.c
         multiplizeren.h
         rockpaperscissor.c
-        rockpaperscissor.h)
+        rockpaperscissor.h
+        chaincalculator.c
+        chaincalculator.h)

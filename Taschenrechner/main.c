@@ -5,7 +5,7 @@ int main(void) {
     int play_again;
     do {
         choice();
-        printf("Do you want to play again? 1 = yes | 2  = no \n");
+        printf("Do you want to calculate again? 1 = yes | 2  = no \n");
         scanf("%d", &play_again);
     } while (play_again == 1);
     printf("Thank you for playing\n");
