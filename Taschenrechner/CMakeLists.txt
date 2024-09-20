@@ -21,4 +21,6 @@ add_executable(Taschenrechner main.c
         geometrie.c
         geometrie.h
         multiplizeren.c
-        multiplizeren.h)
+        multiplizeren.h
+        rockpaperscissor.c
+        rockpaperscissor.h)
