@@ -10,7 +10,7 @@ double sqrt_custom(double number);
 void calculate_square_root() {
     double number;
 
-    printf("Enter number: ");
+    printf("Enter number:\n");
     scanf("%lf", &number);
 
     if (number < 0) {

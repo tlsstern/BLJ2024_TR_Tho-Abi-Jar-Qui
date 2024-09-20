@@ -8,7 +8,7 @@ void calculate_factorial() {
     int number;
     unsigned long long result = 1;
 
-    printf("Enter a number: ");
+    printf("Enter a number:\n");
     scanf("%d", &number);
 
     if (number < 0) {
