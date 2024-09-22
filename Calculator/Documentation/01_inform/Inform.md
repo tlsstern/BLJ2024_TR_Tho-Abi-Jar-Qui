@@ -41,7 +41,7 @@ The final product will include:
 ## Gathering information
 ### Requirements for the Product
 * We combined the requirements from two sources: our instructors' specifications and our own ideas. To get a better overview, we have collected all the requirements in an Excel spreadsheet
-![Screenshot 2024-09-22 120800](C:\Users\abiga\Documents\NY\Programmiersprachen\C\Einführung\Calculator\Documentation\01_inform\Requirement list_Calculator Project_Inform.png)
+![Screenshot](C:\Users\abiga\Documents\GitHub\BLJ2024_TR_Tho-Abi-Jar-Qui\Calculator\Documentation\Images\Requirement list_Calculator Project_Inform.png)
 
 ## Tutorials
 * Faculty - Basics and calculation rules
