@@ -3,19 +3,24 @@
 //
 
 #include "chaincalculator.h"
-
+#include <string.h>
 #include <stdio.h>
 
 void chaincalculator() {
     char input[25];
-    int i;
+    int i = 0;
+    printf("Enter calculations (enter 'n' to calculate)\n");
 
-    do {
-        for (i = 0; i<=25; i++) {
-            printf("Enter calculation (enter n to calculate)\n");
-            scanf("%c", &input[i]);
-        }  }while (input[i] != 'n');
+    while (1) {
+        fgets(input, sizeof(input), stdin);
 
+        if (input[0] == 'n' && strlen(input) == 2) {
+            break;
+        }
+        i++;
+    }
+        if (i >= 25) {
+            printf("Max limit reached\n");
+        }
 }
-
 
