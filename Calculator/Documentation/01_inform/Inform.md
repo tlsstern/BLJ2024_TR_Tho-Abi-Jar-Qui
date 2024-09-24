@@ -46,7 +46,7 @@ The final product will include:
 
 ![Screenshot](https://github.com/tlsstern/BLJ2024_TR_Tho-Abi-Jar-Qui/blob/main/Calculator/Documentation/Images/Requirement%20list_Calculator%20Project_Inform.png)
 
-![Requirement list instructor]()
+![Requirement list instructor](https://github.com/tlsstern/BLJ2024_TR_Tho-Abi-Jar-Qui/blob/main/Calculator/Documentation/Images/Grundvorgaben_Calculator%20project_inform.png)
 
 ## Definition of done
 
@@ -55,7 +55,7 @@ The final product will include:
 * Faculty - Basics and calculation rules
   * Retrieved September 19, 2024
   * from: https://www.youtube.com/watch?v=hLfQ-ou4vEw&pp=ygUJZmFrdWx0w6R0
-  * from: https://www.bing.com/ck/a?!&&p=6f4ddf7af041a680JmltdHM9MTcyNzEzNjAwMCZpZ3VpZD0wNTgxMGExYS0wODJhLTYzOTAtMDg4OS0xZWMzMDk1YTYyZDMmaW5zaWQ9NTIxNQ&ptn=3&ver=2&hsh=3&fclid=05810a1a-082a-6390-0889-1ec3095a62d3&psq=fakult%c3%a4t&u=a1aHR0cHM6Ly9zdHVkeWZsaXguZGUvc3RhdGlzdGlrL2Zha3VsdGF0LTE0Nzc&ntb=1 
+  * from: https://studyflix.de/statistik/fakultat-1477
 
 * BMI Calculator
   * Retrieved September 19, 2024
