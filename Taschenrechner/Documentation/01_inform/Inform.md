@@ -44,9 +44,9 @@ The final product will include:
 ### Requirements for the Product
 We combined the requirements from two sources: our instructors' specifications and our own ideas. To gain a better overview, we have collected all the requirements in an Excel spreadsheet, which everyone has access to. This approach helped us gain a complete picture of what was expected and allowed us to add our personal touch to the project. Having clear requirements is essential as it ensures that everyone in the team has a shared understanding of the project's goals, helping us stay focused and avoid misunderstandings. This structured approach allows us to prioritize tasks effectively, track progress, and ultimately deliver product that meets both the instructor's expectations and our ambitions.
 
-![Screenshot](https://github.com/tlsstern/BLJ2024_TR_Tho-Abi-Jar-Qui/blob/main/Taschenrechner/Documentation/Images/Requirement%20list_Taschenrechner%20Project_Inform.png)
+![Screenshot](https://github.com/tlsstern/BLJ2024_TR_Tho-Abi-Jar-Qui/blob/main/Taschenrechner/Documentation/Images/Requirement%20list_Calculator%20Project_Inform.png)
 
-![Requirement list instructor](https://github.com/tlsstern/BLJ2024_TR_Tho-Abi-Jar-Qui/blob/main/Calculator/Documentation/Images/Grundvorgaben_Calculator%20project_inform.png)
+![Requirement list instructor](https://github.com/tlsstern/BLJ2024_TR_Tho-Abi-Jar-Qui/blob/main/Taschenrechner/Documentation/Images/Grundvorgaben_Calculator%20project_inform.png)
 
 ## Tutorials
 * Faculty - Basics and calculation rules
