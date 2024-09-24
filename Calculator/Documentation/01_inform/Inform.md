@@ -42,14 +42,11 @@ The final product will include:
 
 ## Gathering information
 ### Requirements for the Product
-* We combined the requirements from two sources: our instructors' specifications and our own ideas. To get a better overview, we have collected all the requirements in an Excel spreadsheet
+We combined the requirements from two sources: our instructors' specifications and our own ideas. To gain a better overview, we have collected all the requirements in an Excel spreadsheet, which everyone has access to. This approach helped us gain a complete picture of what was expected and allowed us to add our personal touch to the project. Having clear requirements is essential as it ensures that everyone in the team has a shared understanding of the project's goals, helping us stay focused and avoid misunderstandings. This structured approach allows us to prioritize tasks effectively, track progress, and ultimately deliver product that meets both the instructor's expectations and our ambitions.
 
 ![Screenshot](https://github.com/tlsstern/BLJ2024_TR_Tho-Abi-Jar-Qui/blob/main/Calculator/Documentation/Images/Requirement%20list_Calculator%20Project_Inform.png)
 
 ![Requirement list instructor](https://github.com/tlsstern/BLJ2024_TR_Tho-Abi-Jar-Qui/blob/main/Calculator/Documentation/Images/Grundvorgaben_Calculator%20project_inform.png)
-
-## Definition of done
-
 
 ## Tutorials
 * Faculty - Basics and calculation rules
@@ -62,6 +59,8 @@ The final product will include:
   * from: https://www.usz.ch/bmi-rechner/ 
 
 ## Tools & Software needed
+To work together on the calculator project, we need some tools to help us write code, work together, and keep track of our progress. These following tools will make it easier for us to communicate, stay organized, and finish the project on time.
+
 * Visual Studio Code
   * A code editor for writing and debugging C code. It offers features like syntax highlighting, code completion and debugging tools.
  
