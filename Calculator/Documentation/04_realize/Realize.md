@@ -1,4 +1,4 @@
-# Realise
+# Realize
 During the realization phase of our project, we focused on developing a calculator that not only performs basic mathematical operations but also offers more complex features. The work was carried out as a team, with each member contributing their unique skills to expand the program's functionality. Our main goals were to create a stable foundation, integrate advanced features, and ensure a user-friendly interface.
 
 ## Setting up
@@ -19,12 +19,12 @@ This code demonstrates our interactive, console-based calculator, which offers u
 
 ![Screenshot 2024-09-22 140911](https://github.com/tlsstern/BLJ2024_TR_Tho-Abi-Jar-Qui/blob/main/Calculator/Documentation/Images/Multifunctional_Calculator%20Project_Realize.png)
 
-### Obligatory feature
+### Obligatory features
 We had to code obligatory features one of them is the multiplication which we also had to implement the function multiplaction that continuously multiplies user-inputted integers until the user decides to stop by entering 'S' or 's'. The function starts with an initial product of 1 and prompts the user to input numbers. If the input is not a valid integer, the program checks if the user entered 'S' or 's' to stop, otherwise, it asks for a valid integer again. Once the user stops the input, the function prints the final product of all entered numbers and returns 0, indicating successful execution.
 
 ![Screenshot 2024-09-22 141911](https://github.com/tlsstern/BLJ2024_TR_Tho-Abi-Jar-Qui/blob/main/Calculator/Documentation/Images/Multiplication_Calculator%20Project_Realize.png)
 
-### Optional feature Geometry
+### Optional features Geometry
 We had also to choose at least one optional feature which in the following code is the geometry it allow users to calculate the area or volume of various geometric shapes through an interactive console interface. The main function, geometry, prompts the user to choose between calculating an area or a volume. Depending on the user’s choice, the program either calls the Area function or the Volume function. If the user selects to calculate an area, the Area function further asks them to choose from a list of shapes, including a circle, square, rectangle, triangle, or trapezoid. Each of these shapes has a corresponding function that calculates its area based on the dimensions provided by the user, such as radius for a circle or side lengths for a square or rectangle. Similarly, if the user opts to calculate a volume, the Volume function prompts them to select a shape. The program includes an input check to ensure that the user enters the correct type of data.
 
 ![Screenshot 2024-09-22 143444](https://github.com/tlsstern/BLJ2024_TR_Tho-Abi-Jar-Qui/blob/main/Calculator/Documentation/Images/Geometrie1_Calculator%20Project_Realize.png)
@@ -33,7 +33,7 @@ We had also to choose at least one optional feature which in the following code 
 
 ![Screenshot 2024-09-22 144034](https://github.com/tlsstern/BLJ2024_TR_Tho-Abi-Jar-Qui/blob/main/Calculator/Documentation/Images/Geometrie3_Calculator%20Project_Realize.png)
 
-### Issues encountered
+## Issues encountered
 We had two main issues. One of them, as shown in line 49 of the code, was a syntax error that prevented the code from compiling correctly. This line attempted to declare a function within a case statement, which is not allowed in C programming. The case statement is used to execute a specific block of code when a particular condition is met, and it does not support function declarations. The intended purpose of this line was likely to call the trapezoid() function when the value of the choice variable is 5. However, the syntax used was incorrect. It was corrected by simply removing the void keyword and the extra semicolon, so it would look like line 47. The issue came because the function was overwritten and therefore redeclared instead of called up.
 
 ![Screenshot 2024-09-20 102648](https://github.com/tlsstern/BLJ2024_TR_Tho-Abi-Jar-Qui/blob/main/Calculator/Documentation/Images/Issue1_Realize.png)
@@ -42,5 +42,5 @@ We faced our second issue with using GitHub, mainly because our development envi
 
 Regarding this particular problem, we consulted our instructor because we were concerned that if we couldn’t solve it, we wouldn’t be able to share our code later. It took us two hours to analyze and resolve the issue, and afterward, we were able to continue working on our code.
 
-### Saving our work
+## Saving our work
 To keep everyone updated on each other's progress, we pushed and committed our code to GitHub. This way, not only we and our instructors could see our progress, but our code was also stored in a safe place. Additionally, this allowed us to collaborate effectively and track changes over time.

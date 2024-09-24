@@ -5,14 +5,12 @@ After understanding the project requirements and aligning on some initial ideas,
 Before starting with the coding and organizing tasks across different files, we needed to clearly define each task. It was very important to us that the workload was balanced so that no one had too much or too little to do. Since we were a team of three, we decided that all of us would participate in the coding process: Thomas and Abigail would work on the main functions, Jara would handle the geometric feature, and Abigail would take care of the documentation. 
 
 ## Resource Plan
-We developed a resource plan to clearly outline our availability and ensure we allocated enough time for each task. This plan helped us visualize our working hours and manage our time effectively, making sure we stayed on track throughout the project. Of course we couldn't follow the resource plan everyday directly but we did our best to orient our working times just like we planned on there.
-
-With that planned, we also know how many hours our project would take in total: 83 hours
+The resource plan was developed to map out team members' availability and allocate sufficient time for each task. It provided a clear overview of working hours, helping to manage time effectively and ensuring the project stayed on track. Though the plan wasn't followed exactly every day, efforts were made to adjust work schedules as closely as possible to the original outline. The plan also highlighted potential scheduling conflicts or gaps, allowing for early adjustments. For instance, Quint's delayed participation due to illness was factored in, ensuring tasks were distributed effectively and any challenges were addressed promptly. With a total estimated effort of 83 hours, time was allocated strategically across coding, testing, documentation, and final presentation preparations. This approach ensured smooth progress and helped prevent last minute stress as the project neared its deadline.
 
 ![Resource Plan](https://github.com/tlsstern/BLJ2024_TR_Tho-Abi-Jar-Qui/blob/main/Calculator/Documentation/Images/Resource%20Plan_Calculator%20Project_Planning.png)
 
 ## Task List
-By setting specific start and end dates for each task, we could allocate our time and resources efficiently, staying organized and focused. We identified key periods where we needed to concentrate our efforts to meet deadlines and ensure that we delivered a high-quality product.
+The task list was created to outline all the essential activities needed for the project. Each task was assigned a specific start and end date, helping us stay on track and maintain a clear workflow. Importantly, everyone on the team had access to the task list, allowing for transparency and collaboration. Tasks were divided into categories such as coding, testing, documentation, and presentations. This breakdown allowed us to focus on our specific responsibilities while understanding how our work fit into the overall project.
 
 ![Screenshot 2024-09-21](https://github.com/tlsstern/BLJ2024_TR_Tho-Abi-Jar-Qui/blob/main/Calculator/Documentation/Images/Task%20list_Calculator%20Project_Planning.png)
 
