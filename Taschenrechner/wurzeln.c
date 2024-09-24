@@ -14,7 +14,40 @@ void calculate_square_root() {
     scanf("%lf", &number);
 
     if (number < 0) {
-        printf("Square root can only be calculated for positive numbers. Enter a positive number.\n");
+        printf("                             =_-___\n");
+        printf("                           o    \\__ \\\n");
+        printf("                          o       __| \\\n");
+        printf("                           o      \\__  \\\n");
+        printf("                             oooo    \\  \\\n");
+        printf("                                      \\  \\\n");
+        printf("        __________________             |   \\\n");
+        printf("       |__________________|             \\   |\n");
+        printf("        \\/\\/\\/\\/\\/\\/\\/\\/\\/     _----_    |   |\n");
+        printf("         \\/\\/\\/\\/\\/\\/\\/\\/     |      \\   |   |\n");
+        printf("          \\/\\/\\/\\/\\/\\/\\/      |       |    |  |\n");
+        printf("           |/\\/\\/\\/\\/\\/|        |       \\__/    |\n");
+        printf("           |/\\/\\/\\/\\/\\/|         __---          |\n");
+        printf("           |/\\/\\/\\/\\/\\/|       /   \\            |\n");
+        printf("                             |     |          |\n");
+        printf("                             |   /            |\n");
+        printf("                             |   \\            |\n");
+        printf("                             |   | \\          |\n");
+        printf("                             |   |   \\____-----\\\n");
+        printf("                             |   |    \\____-----\n");
+        printf("                              |  |    |          \\\n");
+        printf("                              |  |   |             \\\n");
+        printf("                               \\  \\_|_      |       |\n");
+        printf("                                \\____/  ___/ \\_____/\n");
+        printf("                                   /    /       \\     \\\n");
+        printf("                                 /     /          \\     \\\n");
+        printf("                                /    /              \\    \\\n");
+        printf("                              /    /                  \\    \\\n");
+        printf("                             /   /                      \\   \\\n");
+        printf("                       /\\   /  /                          \\  |\n");
+        printf("                      |  \\/ \\/                              \\/ \\\n");
+        printf("                       \\    |                             __/   |\n");
+        printf("                         \\_/                            /______/\n");
+        printf("Square root can only be calculated for positive numbers. Please enter a positive number.\n");
     } else {
 
         double result = sqrt_custom(number);
