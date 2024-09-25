@@ -1,5 +1,5 @@
 # Inform
-We were assigned a project to develop a calculator in C, and our group consists of four members who were randomly selected. As soon as we received the assignment, we introduced ourselves to each other. One person was sick, so we reached out to check on their health, wished them a speedy recovery, and asked if they were feeling better. This information was important as it would later influence our planning. We made sure everyone was included in the information sharing process, and first, everyone read the document that outlined the specific requirements. We also asked our instructor how much time we had to complete the project. They informed us that we had the entire time until the deadline, without providing any additional inputs.
+We were assigned a project to develop a calculator in C and our group consists of four members who were randomly selected. As soon as we received the assignment, we introduced ourselves to each other. One person was sick, so we reached out to check on their health, wished them a speedy recovery, and asked if they were feeling better. This information was important as it would later influence our planning. We made sure everyone was included in the information sharing process and first, everyone read the document that outlined the specific requirements. We also asked our instructor how much time we had to complete the project. They informed us that we had the entire time until the deadline, without providing any additional inputs.
 
 ## Information Required
 **Submission Deadline** 
@@ -74,7 +74,7 @@ To work together on the calculator project, we need some tools to help us write 
   * It allows us to capture specific areas of our screen for documentation or presentation purposes.
 
 * CLion
-  * It provides advanced features for writing, debugging, and analyzing C code.
+  * It provides advanced features for writing, debugging, and analyzing C code. I'd add CLion on top instead of Visual Studio Code, since it is our main program.
 
 * Microsoft Teams
   * In microsoft we will communicate, write and therefore inform each other.

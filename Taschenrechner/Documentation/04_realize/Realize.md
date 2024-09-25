@@ -1,12 +1,12 @@
 # Realize
-During the realization phase of our project, we focused on developing a calculator that not only performs basic mathematical operations but also offers more complex features. The work was carried out as a team, with each member contributing their unique skills to expand the program's functionality. Our main goals were to create a stable foundation, integrate advanced features, and ensure a user-friendly interface.
+During the realization phase of our project, we focused on developing a calculator that not only performs basic mathematical operations but also offers more features. The work was carried out as a team, with each member contributing their skills to expand the program's functionality. Our main goals were to create a stable foundation, integrate advanced features, and ensure a user-friendly interface.
 
 ## Setting up
 * GitHub
-  We started with setting up a shared repository on GitHub. Thomas created the repository and invite all team members, including our instructors. This setup enabled us to collaborate seamlessly, track our progress, and ensure that our code was securely stored.
+  We started with setting up a shared repository on GitHub. Thomas created the repository and invited all team members, including our instructors. This setup enabled us to collaborate seamlessly, track our progress, and ensure that our code was securely stored.
 
 * CLion
-  We chose CLion as our primary IDE, allowing us to write, debug, and test our code efficiently. Its robust debugging tools and user-friendly interface made it an ideal choice for our project, ensuring that we could identify and resolve issues swiftly as they arose.
+  We chose CLion as our primary platform, allowing us to write, debug, and test our code efficiently. Its good debugging tools and user-friendly interface made it an ideal choice for our project, ensuring that we could identify and resolve issues swiftly as they came across.
 
 ## Coding
 ### The base of the game
@@ -15,12 +15,12 @@ Our project began with the development of a basic calculator, serving as the fou
 ![screenshot 2024-09-22](https://github.com/tlsstern/BLJ2024_TR_Tho-Abi-Jar-Qui/blob/main/Taschenrechner/Documentation/Images/Main_Calculator%20Project_Realize.png)
 
 ### Multifunctional 
-This code demonstrates our interactive, console-based calculator, which offers users a menu of twelve different operations. Upon execution, the program displays a list of mathematical and non-mathematical functions, enabling users to select an option by entering the corresponding number. Additionally, the program provides features for geometric calculations and chained calculations, where multiple operations can be performed sequentially. For non-mathematical functionality, the program includes a simple implementation of the Rock-Paper-Scissors game. The selected operation is then executed by calling the corresponding function, each of which is implemented in separate modules included in the program through header files. The program ensures that only valid inputs (numbers between 1 and 12) are accepted, prompting the user to re-enter their choice if an invalid input is detected.
+This code demonstrates our interactive, console based calculator, which offers users a menu of twelve different operations. Upon execution, the program displays a list of mathematical and non mathematical functions, enabling users to select an option by entering the corresponding number. Additionally, the program provides features for geometric calculations and chained calculations, where multiple operations can be performed sequentially. For non mathematical functionality, the program includes a simple implementation of the Rock-Paper-Scissors game. The selected operation is then executed by calling the corresponding function, each of which is implemented in separate modules included in the program through header files. The program ensures that only valid inputs (numbers between 1 and 12) are accepted, prompting the user to re-enter their choice if an invalid input is detected.
 
 ![Screenshot 2024-09-22 140911](https://github.com/tlsstern/BLJ2024_TR_Tho-Abi-Jar-Qui/blob/main/Taschenrechner/Documentation/Images/Multifunctional_Calculator%20Project_Realize.png)
 
 ### Obligatory features
-We had to code obligatory features one of them is the multiplication which we also had to implement the function multiplaction that continuously multiplies user-inputted integers until the user decides to stop by entering 'S' or 's'. The function starts with an initial product of 1 and prompts the user to input numbers. If the input is not a valid integer, the program checks if the user entered 'S' or 's' to stop, otherwise, it asks for a valid integer again. Once the user stops the input, the function prints the final product of all entered numbers and returns 0, indicating successful execution.
+We had to code obligatory features one of them is the multiplication which we also had to implement the function multiplaction that continuously multiplies user inputted integers until the user decides to stop by entering 'S' or 's'. The function starts with an initial product of 1 and prompts the user to input numbers. If the input is not a valid integer, the program checks if the user entered 'S' or 's' to stop, otherwise, it asks for a valid integer again. Once the user stops the input, the function prints the final product of all entered numbers and returns 0, indicating successful execution.
 
 ![Screenshot 2024-09-22 141911](https://github.com/tlsstern/BLJ2024_TR_Tho-Abi-Jar-Qui/blob/main/Taschenrechner/Documentation/Images/Multiplication_Calculator%20Project_Realize.png)
 
@@ -38,7 +38,7 @@ We had two main issues. One of them, as shown in line 49 of the code, was a synt
 
 ![Screenshot 2024-09-20 102648](https://github.com/tlsstern/BLJ2024_TR_Tho-Abi-Jar-Qui/blob/main/Taschenrechner/Documentation/Images/Issue1_Realize.png)
 
-We faced our second issue with using GitHub, mainly because our development environments were different. One team member set up the repository and invited the rest of us to join. However, we had trouble uploading our code to the shared repository. To avoid losing our work, we had to save our code in separate repositories temporarily. The CMake file often wasn’t recognized, so I had to reset the repository several times. To fix these issues, the team member who created the repository had to reconfigure it. After that, we were able to merge our individual code into the shared repository successfully. 
+We faced our second issue with using GitHub, mainly because our development environments were different. One team member set up the repository and invited the rest of us to join. However, we had trouble uploading our code to the shared repository. To avoid losing our work, we had to save our code in separate repositories temporarily. The CMake file often wasn’t recognized, so we had to reset the repository several times. To fix these issues, the team member who created the repository had to reconfigure it. After that, we were able to merge our individual code into the shared repository successfully. 
 
 Regarding this particular problem, we consulted our instructor because we were concerned that if we couldn’t solve it, we wouldn’t be able to share our code later. It took us two hours to analyze and resolve the issue, and afterward, we were able to continue working on our code.
 
