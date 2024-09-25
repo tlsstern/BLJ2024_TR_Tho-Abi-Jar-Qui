@@ -31,7 +31,7 @@ void calculate_square_root() {
         printf("                             |     |          |\n");
         printf("                             |   /            |\n");
         printf("                             |   \\            |\n");
-        printf("                             |   | \\          |\n");
+        printf("    Try again!               |   | \\          |\n");
         printf("                             |   |   \\____-----\\\n");
         printf("                             |   |    \\____-----\n");
         printf("                              |  |    |          \\\n");
@@ -57,7 +57,7 @@ void calculate_square_root() {
 
 double sqrt_custom(double number) {
     double guess = number / 2.0;
-    double epsilon = 0.00001;
+    double epsilon = 0.0001;
 
     while (guess * guess - number > epsilon || number - guess * guess > epsilon) {
         guess = (guess + number / guess) / 2.0;
