@@ -16,12 +16,7 @@
 int choice() {
     int choice;
 
-    printf("CALCULATOR\n");
-    printf("What do you want to do? (input Number)\n");
-    printf("1. Addition\t\t2. Subtraction\t\t3. Division\n");
-    printf("4. Multiplication\t5. Exponential\t\t6. Root\n");
-    printf("7. Factorial\t\t8. Geometry\t\t9. Chain calculation\n");
-    printf("10. Linear Functions\t11. Life Science\t12. Rock Paper Scissor\n");
+    printf("CALCULATOR\nWhat do you want to do? (input Number)\n1. Addition\t\t2. Subtraction\t\t3. Division\n4. Multiplication\t5. Exponential\t\t6. Root\n7. Factorial\t\t8. Geometry\t\t9. Chain calculation\n10. Linear Functions\t11. Life Science\t12. Rock Paper Scissor\n");
 
     if (scanf("%d", &choice) != 1 || choice < 1 || choice > 12) {
         printf("Invalid input. Please enter a number between 1 and 12.\n");
