@@ -62,20 +62,20 @@ void circle(){
     printf("The area is %.2f\n", result);
 }
 void square() {
-    float lenght;
+    float length;
     printf("Enter site length in cm\n");
-    scanf("%f", &lenght);
-    float result = lenght * lenght;
+    scanf("%f", &length);
+    float result = length * length;
     printf("The area is %.2f\n", result);
 }
 void rectangle() {
-    float lenghtOne;
-    float lenghtTwo;
+    float lengthOne;
+    float lengthTwo;
     printf("Enter length of one Site in cm\n");
-    scanf("%f", &lenghtOne);
+    scanf("%f", &lengthOne);
     printf("Enter length of second Site in cm\n");
-    scanf("%f", &lenghtTwo);
-    float result = lenghtOne * lenghtTwo;
+    scanf("%f", &lengthTwo);
+    float result = lengthOne * lengthTwo;
     printf("The area is %.2f\n", result);
 }
 void triangle() {
@@ -89,16 +89,16 @@ void triangle() {
     printf("The area is %.2f\n", result);
 }
 void trapezoid() {
-    float lenghtOne;
-    float lenghtTwo;
+    float lengthOne;
+    float lengthTwo;
     float height;
     printf("Enter ground length in cm\n");
-    scanf("%f", &lenghtOne);
+    scanf("%f", &lengthOne);
     printf("Enter top length in cm\n");
-    scanf("%f", &lenghtTwo);
+    scanf("%f", &lengthTwo);
     printf("Enter height in cm\n");
     scanf("%f", &height);
-    float result = height / 2 * (lenghtOne + lenghtTwo);
+    float result = height / 2 * (lengthOne + lengthTwo);
     printf("The area is %.2f\n", result);
 }
 
@@ -141,14 +141,14 @@ void cube() {
 void cuboid() {
     float lengthOne;
     float lengthTwo;
-    float lenghtThree;
+    float lengthThree;
     printf("Enter length of one Site in cm\n");
     scanf("%f", &lengthOne);
     printf("Enter length of second Site in cm\n");
     scanf("%f", &lengthTwo);
     printf("Enter length of third Site in cm\n");
-    scanf("%f", &lenghtThree);
-    float result = lengthOne * lengthTwo * lenghtThree;
+    scanf("%f", &lengthThree);
+    float result = lengthOne * lengthTwo * lengthThree;
     printf("The volume is %.2f\n", result);
 }
 void cylinder() {

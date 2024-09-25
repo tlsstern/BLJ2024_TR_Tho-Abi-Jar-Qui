@@ -57,7 +57,7 @@ int choice() {
             linearfunctions();
             break;
         case 11:
-            lifescience();
+            lifeScience();
             break;
         case 12:
             rockpaperscissor();
