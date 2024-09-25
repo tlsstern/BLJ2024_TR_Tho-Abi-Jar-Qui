@@ -8,11 +8,11 @@ void Alcohol();
 void calculateSleepTime();
 void caloricNeed();
 
-void lifescience() {
+void lifeScience() {
     int choice;
     printf("What do you want to calculate?\n");
-    printf("1. BMI\t\t2. Blood Alcohol\n");
-    printf("3. Optimal Bedtime\t\t4. Calorie Needs\n");
+    printf("1. BMI\t\t\t2. Blood Alcohol\n");
+    printf("3. Optimal Bedtime\t4. Calorie Needs\n");
     scanf("%d", &choice);
     if (choice == 1) {
         BMI();
@@ -43,9 +43,9 @@ void Alcohol() {
     float weight;
     int gender;
     printf("How much do you weight in kg?\n");
-    scanf("%d", &weight);
+    scanf("%f", &weight);
     printf("How much alcohol did you consume in g?\n");
-    scanf("%d", &alcohol);
+    scanf("%f", &alcohol);
     printf("Are you [1] male or [2] female?\n");
     scanf("%d", &gender);
     if (gender == 1) {
@@ -62,10 +62,10 @@ void Alcohol() {
 void calculateSleepTime() {
     int wakeHours, wakeMinutes, duration;
 
-    printf("When do you have to get up? (HH MM): ");
+    printf("When do you have to get up? (HH MM):");
     scanf("%d %d", &wakeHours, &wakeMinutes);
 
-    printf("How long do you want to sleep in minutes? ");
+    printf("How long do you want to sleep in minutes?");
     scanf("%d", &duration);
 
     int sleepHours = wakeHours - (duration / 60);
@@ -80,10 +80,8 @@ void calculateSleepTime() {
         sleepHours += 24;
     }
 
-    printf("You should go to sleep at: %02d:%02d\n", sleepHours, sleepMinutes);
+    printf("You should go to sleep at: %02d:%02d \n", sleepHours, sleepMinutes);
 }
-
-
 
     double calculateCaloricNeed(double weight, double height, int age, char gender);
     double weight, height;
@@ -91,16 +89,16 @@ void calculateSleepTime() {
     char gender;
 
     void caloricNeed() {
-        printf("Please enter your weight in kg: ");
+        printf("Please enter your weight in kg:");
         scanf("%lf", &weight);
 
-        printf("Please enter your height in cm: ");
+        printf("Please enter your height in cm:");
         scanf("%lf", &height);
 
-        printf("Please enter your age in years: ");
+        printf("Please enter your age in years:");
         scanf("%d", &age);
 
-        printf("Please enter your gender (m/f): ");
+        printf("Please enter your gender (m/f):");
         scanf(" %c", &gender);
 
 
@@ -115,9 +113,3 @@ void calculateSleepTime() {
             printf("Please enter again. Invalid input for gender.\n");
         }
     }
-
-
-
-
-
-
