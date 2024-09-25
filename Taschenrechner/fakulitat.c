@@ -6,7 +6,6 @@
 
 void calculate_factorial() {
     int number;
-    unsigned long long result = 1;
 
     printf("Enter a number:\n");
     scanf("%d", &number);
@@ -34,6 +33,7 @@ void calculate_factorial() {
         printf("+---------------------------+\n");
         printf("Factorial can only be calculated for positive integers. Please try again and enter a positive number.\n");
     } else {
+        unsigned long long result = 1;
         for (int i = 1; i <= number; i++) {
             result *= i;
         }

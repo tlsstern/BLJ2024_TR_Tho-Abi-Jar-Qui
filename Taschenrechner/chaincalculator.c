@@ -1,13 +1,13 @@
 #include "chaincalculator.h"
 #include <stdio.h>
-#include <stdlib.h>
+/* #include <stdlib.h>
 #include <ctype.h>
-#include <string.h>
+#include <string.h> */
 
 #define MAX_EXPR_LEN 256
 
 void chaincalculator() {
-    printf("work in progeres \n");
+    printf("work in progress \n");
 }
 /*int precedence(char operator) {
     if (operator == '+' || operator == '-') return 1;
