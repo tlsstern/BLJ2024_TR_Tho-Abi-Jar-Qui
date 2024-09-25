@@ -7,8 +7,13 @@ int subtrahieren() {
     char answer;
 
     printf("Press 's' to stop\n");
+    first:
     printf("Please enter your first number\n");
-    scanf("%d", &sum);
+    if (scanf("%d", &sum) != 1) {
+        printf("Please enter a number\n");
+        fflush(stdin);
+        goto first;
+    }
     do {
         printf("Please enter a number:\n");
         if (scanf("%d", &num) != 1) {

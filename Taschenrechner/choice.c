@@ -15,11 +15,13 @@
 
 int choice() {
     int choice;
-
+    start:
     printf("CALCULATOR\nWhat do you want to do? (input Number)\n1. Addition\t\t2. Subtraction\t\t3. Division\n4. Multiplication\t5. Exponential\t\t6. Root\n7. Factorial\t\t8. Geometry\t\t9. Chain calculation\n10. Linear Functions\t11. Life Science\t12. Rock Paper Scissor\n");
 
     if (scanf("%d", &choice) != 1 || choice < 1 || choice > 12) {
         printf("Invalid input. Please enter a number between 1 and 12.\n");
+        fflush(stdin);
+        goto start;
     }
 
     switch (choice) {
@@ -61,8 +63,23 @@ int choice() {
             break;
 
         default:
-            printf("Wrong choice, please choose a number between 1 - 12\n");
+
     }
 
     return 0;
+}
+
+void calculator() {
+    int play_again;
+    do {
+        choice();
+        end:
+        printf("Do you want to calculate again?\n 1 = yes | 2  = no \n");
+        if (scanf("%d", &play_again) != 1) {
+            printf("Please enter a number 1 or 2\n");
+            fflush(stdin);
+            goto end;
+        }
+    } while (play_again == 1);
+    printf("Thank you for playing\n");
 }
