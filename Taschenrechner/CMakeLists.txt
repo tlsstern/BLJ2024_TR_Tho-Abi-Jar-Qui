@@ -27,4 +27,7 @@ add_executable(Taschenrechner main.c
         chaincalculator.c
         chaincalculator.h
         lifescience.c
-        lifescience.h)
+        lifescience.h
+        linearfunctions.c
+        linearfunctions.h
+)

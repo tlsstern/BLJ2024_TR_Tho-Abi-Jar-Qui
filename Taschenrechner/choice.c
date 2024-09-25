@@ -11,6 +11,7 @@
 #include "wurzeln.h"
 #include "exponenten.h"
 #include "lifescience.h"
+#include "linearfunctions.h"
 
 int choice() {
     int choice;
@@ -55,7 +56,7 @@ int choice() {
             chaincalculator();
             break;
         case 10:
-
+            linearfunctions();
             break;
         case 11:
             lifescience();
