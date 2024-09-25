@@ -12,7 +12,7 @@ The team analyzed all the features listed in the project brief and selected the 
 
 We divided the project tasks among the team members to ensure equal contribution. Each member was assigned a specific set of functions to implement, ensuring that the workload is evenly distributed. For instance, one member was tasked with the implementation of arithmetic operations, while another focused on geometric calculations. We also decided on the division of the presentation and who will present each part. We agreed that the person who coded it will present it. Since Quint was sick, he will do the introduction and conclusion, but he will also present the algebra block with Jara.
 
-![Presentation einteilung]()
+![Presentation einteilung](https://github.com/tlsstern/BLJ2024_TR_Tho-Abi-Jar-Qui/blob/main/Taschenrechner/Documentation/Images/Presentation%20division_Calculator_Decide.png)
 
 
 
