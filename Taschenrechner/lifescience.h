@@ -4,5 +4,5 @@
 
 #ifndef LIFESCIENCE_H
 #define LIFESCIENCE_H
-void lifescience();
+void lifeScience();
 #endif //LIFESCIENCE_H
