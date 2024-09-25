@@ -14,11 +14,11 @@ void calculate_factorial() {
         printf("+---------------------------+\n");
         printf("| ///////////////////////// |\n");
         printf("+---------------------------+\n");
-        printf("| [              1,264.45 ] |\n");
+        printf("| [Enter a positive number] |\n");
         printf("+---------------------------+\n");
         printf("|                           |\n");
         printf("|                           |\n");
-        printf("| [sto] [rcl] [&lt;--] [AC/ON] |\n");
+        printf("| [sto] [rcl] [&lt] [AC/ON] |\n");
         printf("|                           |\n");
         printf("| [ ( ] [ ) ] [sqr] [  /  ] |\n");
         printf("|                           |\n");
