@@ -56,11 +56,11 @@ void calculate_square_root() {
 }
 
 double sqrt_custom(double number) {
-    double guess = number / 2.0;
-    double epsilon = 0.0001;
+    double guess = number / 2;
+    double epsilon = 0.001;
 
     while (guess * guess - number > epsilon || number - guess * guess > epsilon) {
-        guess = (guess + number / guess) / 2.0;
+        guess = (guess + number / guess) / 2;
     }
     return guess;
 }

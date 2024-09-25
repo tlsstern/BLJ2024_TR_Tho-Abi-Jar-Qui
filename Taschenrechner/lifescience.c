@@ -42,12 +42,14 @@ void Alcohol() {
     float alcohol;
     float weight;
     int gender;
+
     printf("How much do you weight in kg?\n");
     scanf("%f", &weight);
     printf("How much alcohol did you consume in g?\n");
     scanf("%f", &alcohol);
     printf("Are you [1] male or [2] female?\n");
     scanf("%d", &gender);
+
     if (gender == 1) {
         float result = alcohol / (weight * 0.7);
         printf("Your alcohol is: %.1f\n", result);
@@ -83,7 +85,8 @@ void calculateSleepTime() {
     printf("You should go to sleep at: %02d:%02d \n", sleepHours, sleepMinutes);
 }
 
-    double calculateCaloricNeed(double weight, double height, int age, char gender);
+
+
     double weight, height;
     int age;
     char gender;
@@ -110,6 +113,6 @@ void calculateSleepTime() {
             float result = 447.593 + (9.247 * weight) + (3.098 * height) - (4.330 * age);
             printf("Your Calorie Needs is: %.1f\n", result);
         } else{
-            printf("Please enter again. Invalid input for gender.\n");
+            printf("Please enter again your details there was an invalid input.\n");
         }
     }
