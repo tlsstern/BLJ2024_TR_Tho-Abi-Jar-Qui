@@ -28,13 +28,13 @@ void lifescience() {
 }
 
 void BMI() {
-    int height;
-    int weight;
+    float height;
+    float weight;
     printf("How tall are you in cm?\n");
-    scanf("%d", &height);
+    scanf("%f", &height);
     printf("How much do you weigh in kg?\n");
-    scanf("%d", &weight);
-    float bmi = (height / 100) * (height / 100) / weight;
+    scanf("%f", &weight);
+    float bmi = weight / ((height / 100) * (height / 100));
     printf("Your BMI is: %.1f\n", bmi);
 }
 
