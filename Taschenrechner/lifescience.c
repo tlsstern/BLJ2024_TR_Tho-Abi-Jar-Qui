@@ -11,8 +11,8 @@ void caloricNeed();
 void lifescience() {
     int choice;
     printf("What do you want to calculate?\n");
-    printf("1. BMI\t\t\t2. Blood Alcohol\n");
-    printf("3. Optimal Bedtime\t4. Calorie Needs\n");
+    printf("1. BMI\t\t2. Blood Alcohol\n");
+    printf("3. Optimal Bedtime\t\t4. Calorie Needs\n");
     scanf("%d", &choice);
     if (choice == 1) {
         BMI();
@@ -50,11 +50,11 @@ void Alcohol() {
     scanf("%d", &gender);
     if (gender == 1) {
         float result = alcohol / (weight * 0.7);
-        printf("Your blood alcohol is: %.1f\n", result);
+        printf("Your alcohol is: %.1f\n", result);
 
     }else if (gender == 2) {
         float result = alcohol / (weight * 0.6);
-        printf("Your blood alcohol is: %.1f\n", result);
+        printf("Your alcohol is: %.1f\n", result);
     }
 }
 
@@ -82,6 +82,8 @@ void calculateSleepTime() {
 
     printf("You should go to sleep at: %02d:%02d\n", sleepHours, sleepMinutes);
 }
+
+
 
     double calculateCaloricNeed(double weight, double height, int age, char gender);
     double weight, height;

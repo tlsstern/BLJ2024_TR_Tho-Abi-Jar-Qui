@@ -56,14 +56,14 @@ void Area(){
 void circle(){
     float pi = 3.14159;
     float radius;
-    printf("Enter radius");
+    printf("Enter radius in cm\n");
     scanf("%f", &radius);
     float result = pi * radius * radius;
     printf("The area is %.2f\n", result);
 }
 void square() {
     float lenght;
-    printf("Enter site length");
+    printf("Enter site length in cm\n");
     scanf("%f", &lenght);
     float result = lenght * lenght;
     printf("The area is %.2f\n", result);
@@ -71,9 +71,9 @@ void square() {
 void rectangle() {
     float lenghtOne;
     float lenghtTwo;
-    printf("Enter length of one Site");
+    printf("Enter length of one Site in cm\n");
     scanf("%f", &lenghtOne);
-    printf("Enter length of second Site");
+    printf("Enter length of second Site in cm\n");
     scanf("%f", &lenghtTwo);
     float result = lenghtOne * lenghtTwo;
     printf("The area is %.2f\n", result);
@@ -81,9 +81,9 @@ void rectangle() {
 void triangle() {
     float ground;
     float height;
-    printf("Enter ground length");
+    printf("Enter ground length in cm\n");
     scanf("%f", &ground);
-    printf("Enter height");
+    printf("Enter height in cm\n");
     scanf("%f", &height);
     float result = ground * height / 2;
     printf("The area is %.2f\n", result);
@@ -92,11 +92,11 @@ void trapezoid() {
     float lenghtOne;
     float lenghtTwo;
     float height;
-    printf("Enter ground length");
+    printf("Enter ground length in cm\n");
     scanf("%f", &lenghtOne);
-    printf("Enter top length");
+    printf("Enter top length in cm\n");
     scanf("%f", &lenghtTwo);
-    printf("Enter height");
+    printf("Enter height in cm\n");
     scanf("%f", &height);
     float result = height / 2 * (lenghtOne + lenghtTwo);
     printf("The area is %.2f\n", result);
@@ -126,14 +126,14 @@ void Volume() {
 void ball() {
     float pi = 3.14159;
     float radius;
-    printf("Enter radius");
+    printf("Enter radius in cm\n");
     scanf("%f", &radius);
     float result = 4.0/3 * (radius * radius * radius) * pi;
     printf("The volume is %.2f\n", result);
 }
 void cube() {
     float length;
-    printf("Enter site length");
+    printf("Enter site length in cm\n");
     scanf("%f", &length);
     float result = length * length * length;
     printf("The volume is %.2f\n", result);
@@ -142,11 +142,11 @@ void cuboid() {
     float lengthOne;
     float lengthTwo;
     float lenghtThree;
-    printf("Enter length of one Site");
+    printf("Enter length of one Site in cm\n");
     scanf("%f", &lengthOne);
-    printf("Enter length of second Site");
+    printf("Enter length of second Site in cm\n");
     scanf("%f", &lengthTwo);
-    printf("Enter length of third Site");
+    printf("Enter length of third Site in cm\n");
     scanf("%f", &lenghtThree);
     float result = lengthOne * lengthTwo * lenghtThree;
     printf("The volume is %.2f\n", result);
@@ -155,9 +155,9 @@ void cylinder() {
     float pi = 3.14159;
     float radius;
     float height;
-    printf("Enter radius");
+    printf("Enter radius in cm\n");
     scanf("%f", &radius);
-    printf("Enter height");
+    printf("Enter height in cm\n");
     scanf("%f", &height);
     float result = pi * radius * radius * height;
     printf("The volume is %.2f\n", result);
@@ -166,9 +166,9 @@ void cone() {
     float pi = 3.14159;
     float radius;
     float height;
-    printf("Enter radius");
+    printf("Enter radius in cm\n");
     scanf("%f", &radius);
-    printf("Enter height");
+    printf("Enter height in cm\n");
     scanf("%f", &height);
     float result = 1.0/3 * pi * radius * radius * height;
     printf("The volume is %.2f\n", result);
