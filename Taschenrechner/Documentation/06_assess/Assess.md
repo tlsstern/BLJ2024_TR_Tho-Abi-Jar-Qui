@@ -16,7 +16,8 @@ Our point of improvement could be in passing on information. Maybe better coordi
 
 ## Self-reflection by each member
 **Thomas**
-*in progress*
+
+![Thomas reflection](https://github.com/tlsstern/BLJ2024_TR_Tho-Abi-Jar-Qui/blob/main/Taschenrechner/Documentation/Images/Documentation.pdf)
 
 **Abigail**
 
