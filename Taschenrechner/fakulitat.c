@@ -7,8 +7,13 @@
 void calculate_factorial() {
     int number;
 
+    start:
     printf("Enter a number:\n");
-    scanf("%d", &number);
+    if (scanf("%d", &number) != 1) {
+        printf("Invalid input, try again\n");
+        fflush(stdin);
+        goto start;
+    }
 
     if (number < 0) {
         printf("+---------------------------+\n");
