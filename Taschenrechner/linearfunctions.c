@@ -16,12 +16,12 @@ void linearfunctions() {
             fflush(stdin);
             goto y;
         }
-        x:
+        m:
         printf("Gib die Steigung (m) ein:\n");
         if (scanf("%d",&m) != 1) {
             printf("Bitte geben sie eine Zahl ein.\n");
             fflush(stdin);
-            goto x;
+            goto m;
         }
     printf("| x | y |\n");
     printf("| %d | %d |\n", xValues[0], xValues[0]*m + y);
