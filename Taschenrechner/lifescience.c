@@ -10,10 +10,15 @@ void caloricNeed();
 
 void lifeScience() {
     int choice;
+    start:
     printf("What do you want to calculate?\n");
     printf("1. BMI\t\t\t2. Blood Alcohol\n");
     printf("3. Optimal Bedtime\t4. Calorie Needs\n");
-    scanf("%d", &choice);
+    if (scanf("%d", &choice) != 1) {
+        printf("Please enter a Number\n");
+        fflush(stdin);
+        goto start;
+    }
     if (choice == 1) {
         BMI();
     }else if (choice == 2) {
@@ -30,10 +35,20 @@ void lifeScience() {
 void BMI() {
     float height;
     float weight;
+    bmi1:
     printf("How tall are you in cm?\n");
-    scanf("%f", &height);
+    if (scanf("%f", &height) != 1) {
+        printf("Please enter a Number\n");
+        fflush(stdin);
+        goto bmi1;
+    }
+    bmi2:
     printf("How much do you weigh in kg?\n");
-    scanf("%f", &weight);
+    if (scanf("%f", &weight) != 1) {
+        printf("Please enter a Number\n");
+        fflush(stdin);
+        goto bmi2;
+    }
     float bmi = weight / ((height / 100) * (height / 100));
     printf("Your BMI is: %.1f\n", bmi);
 }
