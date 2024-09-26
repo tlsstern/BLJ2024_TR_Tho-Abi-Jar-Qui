@@ -28,4 +28,4 @@ I was able to effectively manage my time, leaving room for additional features a
 
 **Quint**
 
-I, Quint Gerard André Bloemen, was unable to work with the team in the first week because I was unfortunately ill. At the time of writing, I am back with the group. I haven't done much for the assignment yet, but I'm trying to make up for lost time. 
+I, Quint Gerard André Bloemen, was unable to work with the team in the first week because I was unfortunately ill. At the time of writing, I am back with the group. I haven't done much for the assignment yet, but I'm trying to make up for lost time. I am very proud of the rest of the group how they managed without me during the first week. When I came back I could only work on the bug fixes, which was very successful.
