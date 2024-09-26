@@ -101,7 +101,6 @@ void trapezoid() {
     float result = height / 2 * (lengthOne + lengthTwo);
     printf("The area is %.2f\n", result);
 }
-
 void Volume() {
   int choice;
   printf("What Volume do you want to calculate?\n");
@@ -122,7 +121,6 @@ void Volume() {
     default: printf("Wrong entry\n");
   }
 }
-
 void ball() {
     float pi = 3.14159;
     float radius;
