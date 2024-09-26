@@ -10,10 +10,20 @@ double exponentiation(double base, int exponent);
 void exponent() {
     double base;
     int exponent;
+        start:
         printf("Enter base:\n");
-        scanf("%lf", &base);
+        if (scanf("%lf", &base) != 1) {
+            printf("Invalid input\n");
+            fflush(stdin);
+            goto start;
+        }
+        exponent:
         printf("Enter exponent:\n");
-        scanf("%d", &exponent);
+        if (scanf("%d", &exponent) != 1) {
+            printf("Invalid input\n");
+            fflush(stdin);
+            goto exponent;
+        }
     double result = exponentiation(base, exponent);
         printf("%.2lf^%d = %.2lf\n", base, exponent, result);
 }
