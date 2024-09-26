@@ -9,6 +9,7 @@
 void chaincalculator() {
     printf("work in progress \n");
 }
+
 /*int precedence(char operator) {
     if (operator == '+' || operator == '-') return 1;
     if (operator == '*' || operator == '/') return 2;
