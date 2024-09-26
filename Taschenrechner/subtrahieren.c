@@ -20,11 +20,10 @@ int subtrahieren() {
             scanf(" %c", &answer);
             if (answer == 's' || answer == 'S') {
                 break;
-            } else {
-                printf("Invalid input. Please enter an number or 's' to stop.\n");
-                while (getchar() != '\n');
-                continue;
             }
+            printf("Invalid input. Please enter an number or 's' to stop.\n");
+            while (getchar() != '\n');
+            continue;
         }
 
         sum = sum - num;
