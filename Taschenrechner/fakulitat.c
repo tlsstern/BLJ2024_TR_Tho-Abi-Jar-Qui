@@ -14,11 +14,11 @@ void calculate_factorial() {
         printf("+---------------------------+\n");
         printf("| ///////////////////////// |\n");
         printf("+---------------------------+\n");
-        printf("| [              1,264.45 ] |\n");
+        printf("| [Enter a positive number] |\n");
         printf("+---------------------------+\n");
         printf("|                           |\n");
         printf("|                           |\n");
-        printf("| [sto] [rcl] [&lt;--] [AC/ON] |\n");
+        printf("| [sto] [rcl] [&lt] [AC/ON] |\n");
         printf("|                           |\n");
         printf("| [ ( ] [ ) ] [sqr] [  /  ] |\n");
         printf("|                           |\n");
@@ -31,7 +31,7 @@ void calculate_factorial() {
         printf("| [ 0 ] [ . ] [+/-] [  =  ] |\n");
         printf("|                           |\n");
         printf("+---------------------------+\n");
-        printf("Factorial can only be calculated for positive integers. Please try again and enter a positive number.\n");
+        printf("The factorial can only be calculated for positive integers. Please try again and enter a positive number.\n");
     } else {
         unsigned long long result = 1;
         for (int i = 1; i <= number; i++) {

@@ -19,5 +19,5 @@ int main(void) {
             }
         }
     } while (play_again == 1);
-    printf("Thank you for calculating\n");
+    printf("Thank you for calculating!\n");
 }

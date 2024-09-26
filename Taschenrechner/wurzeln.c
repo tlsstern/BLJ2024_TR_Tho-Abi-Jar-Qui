@@ -31,7 +31,7 @@ void calculate_square_root() {
         printf("                             |     |          |\n");
         printf("                             |   /            |\n");
         printf("                             |   \\            |\n");
-        printf("                             |   | \\          |\n");
+        printf("    Try again!               |   | \\          |\n");
         printf("                             |   |   \\____-----\\\n");
         printf("                             |   |    \\____-----\n");
         printf("                              |  |    |          \\\n");
@@ -47,20 +47,20 @@ void calculate_square_root() {
         printf("                      |  \\/ \\/                              \\/ \\\n");
         printf("                       \\    |                             __/   |\n");
         printf("                         \\_/                            /______/\n");
-        printf("Square root can only be calculated for positive numbers. Please enter a positive number.\n");
+        printf("The root can't be calculated from a negative number. Please try it again and enter a positive number.\n");
     } else {
 
         double result = sqrt_custom(number);
-        printf("Square root of %.2lf = %.2lf\n", number, result);
+        printf("The root of %.2lf = %.2lf\n", number, result);
     }
 }
 
 double sqrt_custom(double number) {
-    double guess = number / 2.0;
-    double epsilon = 0.00001;
+    double guess = number / 2;
+    double epsilon = 0.01;
 
     while (guess * guess - number > epsilon || number - guess * guess > epsilon) {
-        guess = (guess + number / guess) / 2.0;
+        guess = (guess + number / guess) / 2;
     }
     return guess;
 }

@@ -4,19 +4,19 @@ Evaluating a project after it's finished is important. It helps us learn from wh
 
 ## What went well?
 
-The team communicated well throughout the project. This dedication created a collaborative environment where ideas matched the team’s goals, and everyone was open to suggestions. Even with a planned workflow, the team understood the need for flexibility. Their adaptable nature allowed for effective task sharing, making sure that most, if not all, parts of the project were completed on time.
+The team communicated well throughout the project. This dedication created a good teamwork where ideas matched the teams goals, and everyone was open to suggestions. Even with a planned workflow, the team understood the need for flexibility. Their adaptable nature allowed for effective task sharing, making sure that most parts of the project were completed on time.
 
 ## Areas for improvement in future projects
 
-
+Overall, our project went well because we implemented all the main functions that were required, as well as additional features. However, we were not able to implement all the features, as one of the algebra blocks was time consuming to complete. For improvement, we might have informed us earlier about Quint’s level of knowledge or experience so that we could have assigned the feature tasks more effectively. It took Quint some time to familiarize himself with the topic, but on the other hand, we were all pleased because it reflected our programming effort. We were open to questions and willing to help each other along the way.
 
 ## Strategies for improvement next time
 
-
+Our point of improvement could be in passing on information. Maybe better coordinate which task needs more time and clarify this in connection with the missing persons.
 
 ## Self-reflection by each member
 **Thomas**
-
+*in progress*
 
 **Abigail**
 
@@ -28,3 +28,4 @@ I was able to effectively manage my time, leaving room for additional features a
 
 **Quint**
 
+I, Quint Gerard André Bloemen, was unable to work with the team in the first week because I was unfortunately ill. At the time of writing, I am back with the group. I haven't done much for the assignment yet, but I'm trying to make up for lost time. I am very proud of the rest of the group how they managed without me during the first week. When I came back I could only work on the bug fixes, which was very successful.
