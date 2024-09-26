@@ -7,7 +7,7 @@ void calculate_square_root() {
     printf("Enter number:\n");
     scanf("%lf", &number);
 
-    if (number < 0.0) {
+    if (number < 0) {
         printf("                             =_-___\n");
         printf("                           o    \\__ \\\n");
         printf("                          o       __| \\\n");

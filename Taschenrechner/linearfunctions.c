@@ -9,10 +9,20 @@ void linearfunctions() {
     int y;
     int m;
     int xValues[] = {0, 1, 2, 3, 4, 5};
+        y:
         printf("Gib y (b) ein:\n");
-        scanf("%d",&y);
+        if (scanf("%d",&y) != 1) {
+            printf("Bitte geben sie eine Zahl ein.\n");
+            fflush(stdin);
+            goto y;
+        }
+        x:
         printf("Gib die Steigung (m) ein:\n");
-        scanf("%d",&m);
+        if (scanf("%d",&m) != 1) {
+            printf("Bitte geben sie eine Zahl ein.\n");
+            fflush(stdin);
+            goto x;
+        }
     printf("| x | y |\n");
     printf("| %d | %d |\n", xValues[0], xValues[0]*m + y);
     printf("| %d | %d |\n", xValues[1], xValues[1]*m + y);
