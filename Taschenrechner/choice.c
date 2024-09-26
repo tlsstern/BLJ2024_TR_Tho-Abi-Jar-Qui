@@ -19,7 +19,7 @@ int choice() {
     start:
     printf("What do you want to do? (input Number)\n1. Addition\t\t2. Subtraction\t\t3. Division\n4. Multiplication\t5. Exponential\t\t6. Root\n7. Factorial\t\t8. Geometry\t\t9. Chain calculation\n10. Linear Functions\t11. Life Science\t12. Rock Paper Scissor\n");
 
-    if (scanf("%d", &choice) != 1 || choice < 1 || choice > 12) {
+    if (scanf("%d", &choice) < 1 || choice > 12) {
         printf("Invalid input. Please enter a number between 1 and 12.\n");
         fflush(stdin);
         goto start;
